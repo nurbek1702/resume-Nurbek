@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto:wght@400;700;900&display=swap");
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Navbar start */
+#bg_png {
+  background-image: url(../assets/images/fon.png);
+  width: 100%;
+  height: 100%;
+}
+.img img {
+  width: 140px;
+  border-radius: 40%;
+  margin: 20px 0 0 30px;
+  box-shadow: 5px 5px 15px 5px white;
+}
+.click {
+  width: 300px;
+  height: 45px;
+  font-size: 19px;
+  background-color: rgb(235, 219, 219);
+  color: red;
+  border-radius: 13px;
+  box-shadow: rgb(175, 120, 120);
+  border: 2px solid white;
+  cursor: pointer;
+}
+.nav-list {
+  margin: 30px;
+  font-size: 19px;
+  color: rgb(113, 113, 152);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 20px;
+  cursor: pointer;
+  font-family: Roboto;
+}
+h2 {
+  color: aquamarine;
+  text-align: center;
+  padding-bottom: 100px;
+  box-shadow: 5px 5px 15px 5px white;
+  margin-top: 20px;
+  text-decoration-line: underline;
+}
+.click:hover {
+  background-color: #79cfa4;
+  color: rgb(120, 120, 204);
+}
+.block1:hover {
+  cursor: pointer;
+  color: aqua;
+}
+.block2:hover {
+  cursor: pointer;
+  color: aqua;
+}
+.block3:hover {
+  cursor: pointer;
+  color: aqua;
+}
+.block4:hover {
+  cursor: pointer;
+  color: aqua;
+}
+/* Navbar finish */
+/* Header start */
+.sections {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1024px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+.im {
+  text-align: center;
+  color: blueviolet;
+  font-weight: 200;
+}
+.sections span {
+  margin-top: 20px;
+  font-size: 18px;
+  color: blueviolet;
+  font-weight: 600;
+}
+.sections p {
+  margin: 15px 15px 0 0;
+  color: grey;
+  font-family: cursive;
+}
+/* Header finish */
+/* Features start */
+.slide {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content:; */
+  align-items: center;
+  margin: 15px 0px 0 30px;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+}
+
+/* Features finish */
+/* Gallery start */
+
+.gallery {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  /* margin-left: 30px; */
+}
+.img img {
+  width: 200px;
+  display: flex;
+  align-content: space-around;
+  box-shadow: 5px 5px 15px 5px black;
+}
+.foto-1 {
+  color: blue;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+/* Gallery start */
+#footer_bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url(https://img.freepik.com/premium-photo/cracked-earth-wallpapers-and-images-for-your-desktop-phone-or-tablet_808092-407.jpg);
+}
+.footer-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  box-shadow: 5px 5px 15px 5px black;
+  margin: 25px 0 25px 20px;
+}
+
+.watsapp img {
+  width: 30px;
+  box-shadow: 3px 3px 3px 1px rgb(247, 235, 235);
+}
+.contact img {
+  width: 30px;
+  box-shadow: 3px 3px 3px 1px rgb(247, 235, 235);
+}
+.instagram img {
+  width: 30px;
+  box-shadow: 3px 3px 3px 1px rgb(247, 235, 235);
+}
+.facebook img {
+  width: 30px;
+  box-shadow: 3px 3px 3px 1px rgb(247, 235, 235);
+}
+.telegram img {
+  width: 30px;
+  box-shadow: 3px 3px 3px 1px rgb(247, 235, 235);
+}
+.footer-block2 {
+  margin-top: 25px;
+}
+.footer-block2 span {
+  text-align: center;
+  color: white;
+}
+.maps img {
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+}
+.list {
+  width: 150px;
+  color: white;
+  text-align: center;
+  margin: 10px 16px 0 18px;
+}
